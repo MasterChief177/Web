@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solar System Explorer</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <canvas id="solarCanvas"></canvas>
+    <div class="ui-container">
+      <div class="panel" id="info-panel">
+        <h1 id="info-name">Solar System Explorer</h1>
+        <p id="info-type">Hover over a body to learn more.</p>
+        <dl id="info-details" class="info-details"></dl>
+        <p id="info-description" class="info-description">
+          Experience an interactive tour of our solar system. Move the mouse to
+          inspect worlds, drag to orbit the camera, and scroll to zoom.
+        </p>
+      </div>
+      <div class="panel instructions">
+        <h2>Controls</h2>
+        <ul>
+          <li><strong>Drag</strong> to rotate the camera</li>
+          <li><strong>Scroll</strong> to zoom</li>
+          <li><strong>Hover</strong> a body for details</li>
+        </ul>
+      </div>
+    </div>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>

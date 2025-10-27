@@ -1,0 +1,365 @@
+{
+  "updated": "2024-01-01",
+  "source": "https://ssd.jpl.nasa.gov/?planet_phys_par",
+  "bodies": [
+    {
+      "name": "Sun",
+      "type": "star",
+      "radiusKm": 696340,
+      "color": "#FDB813",
+      "description": "The G-type main-sequence star at the center of the Solar System, providing the gravitational anchor and energy for all orbiting bodies."
+    },
+    {
+      "name": "Mercury",
+      "type": "planet",
+      "color": "#b0b0b0",
+      "radiusKm": 2439.7,
+      "description": "Closest planet to the Sun with a heavily cratered surface and extreme temperature variations.",
+      "orbit": {
+        "semiMajorAxisKm": 57909050,
+        "orbitalPeriodDays": 87.969,
+        "eccentricity": 0.2056,
+        "inclinationDeg": 7.0
+      },
+      "moons": []
+    },
+    {
+      "name": "Venus",
+      "type": "planet",
+      "color": "#e0c085",
+      "radiusKm": 6051.8,
+      "description": "Second planet from the Sun with a dense CO₂ atmosphere causing a runaway greenhouse effect.",
+      "orbit": {
+        "semiMajorAxisKm": 108208000,
+        "orbitalPeriodDays": 224.701,
+        "eccentricity": 0.0068,
+        "inclinationDeg": 3.4
+      },
+      "moons": []
+    },
+    {
+      "name": "Earth",
+      "type": "planet",
+      "color": "#4f93d2",
+      "radiusKm": 6371,
+      "description": "Our home world, the only known planet to host life, with abundant liquid water and a protective atmosphere.",
+      "orbit": {
+        "semiMajorAxisKm": 149598023,
+        "orbitalPeriodDays": 365.256,
+        "eccentricity": 0.0167,
+        "inclinationDeg": 0.0
+      },
+      "moons": [
+        {
+          "name": "Moon",
+          "type": "moon",
+          "color": "#cccccc",
+          "radiusKm": 1737.4,
+          "description": "Earth's only natural satellite, responsible for tides and stabilizing Earth's axial tilt.",
+          "orbit": {
+            "semiMajorAxisKm": 384400,
+            "orbitalPeriodDays": 27.322,
+            "eccentricity": 0.0549,
+            "inclinationDeg": 5.1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mars",
+      "type": "planet",
+      "color": "#d14b2f",
+      "radiusKm": 3389.5,
+      "description": "The Red Planet with a thin atmosphere, evidence of ancient water, and the tallest volcano in the Solar System.",
+      "orbit": {
+        "semiMajorAxisKm": 227939200,
+        "orbitalPeriodDays": 686.980,
+        "eccentricity": 0.0934,
+        "inclinationDeg": 1.85
+      },
+      "moons": [
+        {
+          "name": "Phobos",
+          "type": "moon",
+          "color": "#88807c",
+          "radiusKm": 11.27,
+          "description": "Innermost Martian moon, a captured asteroid on a decaying orbit.",
+          "orbit": {
+            "semiMajorAxisKm": 9376,
+            "orbitalPeriodDays": 0.3189,
+            "eccentricity": 0.0151,
+            "inclinationDeg": 1.1
+          }
+        },
+        {
+          "name": "Deimos",
+          "type": "moon",
+          "color": "#a3978f",
+          "radiusKm": 6.2,
+          "description": "Outer Martian moon, a small, irregularly shaped body with a smooth regolith layer.",
+          "orbit": {
+            "semiMajorAxisKm": 23463,
+            "orbitalPeriodDays": 1.263,
+            "eccentricity": 0.0002,
+            "inclinationDeg": 1.8
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jupiter",
+      "type": "planet",
+      "color": "#d9b38c",
+      "radiusKm": 69911,
+      "description": "The largest planet with powerful storms like the Great Red Spot and a strong magnetic field.",
+      "orbit": {
+        "semiMajorAxisKm": 778299000,
+        "orbitalPeriodDays": 4332.59,
+        "eccentricity": 0.0489,
+        "inclinationDeg": 1.3
+      },
+      "moons": [
+        {
+          "name": "Io",
+          "type": "moon",
+          "color": "#f4d35e",
+          "radiusKm": 1821.6,
+          "description": "Volcanically active Galilean moon with hundreds of active lava flows.",
+          "orbit": {
+            "semiMajorAxisKm": 421800,
+            "orbitalPeriodDays": 1.769,
+            "eccentricity": 0.0041,
+            "inclinationDeg": 0.0
+          }
+        },
+        {
+          "name": "Europa",
+          "type": "moon",
+          "color": "#c1d1e3",
+          "radiusKm": 1560.8,
+          "description": "Ice-covered world suspected to harbor a subsurface ocean.",
+          "orbit": {
+            "semiMajorAxisKm": 671100,
+            "orbitalPeriodDays": 3.551,
+            "eccentricity": 0.009,
+            "inclinationDeg": 0.5
+          }
+        },
+        {
+          "name": "Ganymede",
+          "type": "moon",
+          "color": "#b8a48b",
+          "radiusKm": 2634.1,
+          "description": "Largest moon in the Solar System and the only moon with its own magnetic field.",
+          "orbit": {
+            "semiMajorAxisKm": 1070400,
+            "orbitalPeriodDays": 7.155,
+            "eccentricity": 0.0013,
+            "inclinationDeg": 0.2
+          }
+        },
+        {
+          "name": "Callisto",
+          "type": "moon",
+          "color": "#9d8771",
+          "radiusKm": 2410.3,
+          "description": "A heavily cratered moon with one of the oldest surfaces in the Solar System.",
+          "orbit": {
+            "semiMajorAxisKm": 1882700,
+            "orbitalPeriodDays": 16.689,
+            "eccentricity": 0.0074,
+            "inclinationDeg": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "Saturn",
+      "type": "planet",
+      "color": "#f5deb3",
+      "radiusKm": 58232,
+      "description": "Gas giant famous for its spectacular ring system composed of ice and rocky debris.",
+      "orbit": {
+        "semiMajorAxisKm": 1429394000,
+        "orbitalPeriodDays": 10759.22,
+        "eccentricity": 0.0565,
+        "inclinationDeg": 2.5
+      },
+      "moons": [
+        {
+          "name": "Titan",
+          "type": "moon",
+          "color": "#d4a373",
+          "radiusKm": 2574.7,
+          "description": "Largest moon of Saturn with a thick nitrogen-rich atmosphere and methane lakes.",
+          "orbit": {
+            "semiMajorAxisKm": 1221870,
+            "orbitalPeriodDays": 15.945,
+            "eccentricity": 0.0288,
+            "inclinationDeg": 0.3
+          }
+        },
+        {
+          "name": "Enceladus",
+          "type": "moon",
+          "color": "#f1f5f9",
+          "radiusKm": 252.1,
+          "description": "Icy moon with geysers that hint at a subsurface ocean.",
+          "orbit": {
+            "semiMajorAxisKm": 237948,
+            "orbitalPeriodDays": 1.37,
+            "eccentricity": 0.0047,
+            "inclinationDeg": 0.0
+          }
+        },
+        {
+          "name": "Rhea",
+          "type": "moon",
+          "color": "#d8d5d0",
+          "radiusKm": 763.5,
+          "description": "Second-largest moon of Saturn with a heavily cratered icy surface.",
+          "orbit": {
+            "semiMajorAxisKm": 527108,
+            "orbitalPeriodDays": 4.518,
+            "eccentricity": 0.001,
+            "inclinationDeg": 0.3
+          }
+        },
+        {
+          "name": "Iapetus",
+          "type": "moon",
+          "color": "#c4b39a",
+          "radiusKm": 734.5,
+          "description": "Moon with a distinctive two-tone coloration and an equatorial ridge.",
+          "orbit": {
+            "semiMajorAxisKm": 3561300,
+            "orbitalPeriodDays": 79.322,
+            "eccentricity": 0.0286,
+            "inclinationDeg": 7.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Uranus",
+      "type": "planet",
+      "color": "#77c1d4",
+      "radiusKm": 25362,
+      "description": "Ice giant tipped on its side, leading to extreme seasonal variations.",
+      "orbit": {
+        "semiMajorAxisKm": 2870658000,
+        "orbitalPeriodDays": 30688.5,
+        "eccentricity": 0.0463,
+        "inclinationDeg": 0.8
+      },
+      "moons": [
+        {
+          "name": "Titania",
+          "type": "moon",
+          "color": "#b7c7cf",
+          "radiusKm": 788.4,
+          "description": "Largest moon of Uranus with canyon systems and fault valleys.",
+          "orbit": {
+            "semiMajorAxisKm": 436300,
+            "orbitalPeriodDays": 8.706,
+            "eccentricity": 0.0011,
+            "inclinationDeg": 0.1
+          }
+        },
+        {
+          "name": "Oberon",
+          "type": "moon",
+          "color": "#b3c1c7",
+          "radiusKm": 761.4,
+          "description": "Outer major moon of Uranus featuring ancient, cratered terrain.",
+          "orbit": {
+            "semiMajorAxisKm": 583500,
+            "orbitalPeriodDays": 13.463,
+            "eccentricity": 0.0014,
+            "inclinationDeg": 0.1
+          }
+        },
+        {
+          "name": "Umbriel",
+          "type": "moon",
+          "color": "#9daeb6",
+          "radiusKm": 584.7,
+          "description": "Dark moon rich in carbon compounds with few impact features.",
+          "orbit": {
+            "semiMajorAxisKm": 266000,
+            "orbitalPeriodDays": 4.144,
+            "eccentricity": 0.0039,
+            "inclinationDeg": 0.1
+          }
+        },
+        {
+          "name": "Ariel",
+          "type": "moon",
+          "color": "#bfcdd4",
+          "radiusKm": 578.9,
+          "description": "Bright Uranian moon with relatively young tectonically resurfaced plains.",
+          "orbit": {
+            "semiMajorAxisKm": 190900,
+            "orbitalPeriodDays": 2.52,
+            "eccentricity": 0.0012,
+            "inclinationDeg": 0.1
+          }
+        },
+        {
+          "name": "Miranda",
+          "type": "moon",
+          "color": "#c7d6de",
+          "radiusKm": 235.8,
+          "description": "Smallest of Uranus's five major moons, famed for its dramatic cliffs and ridges.",
+          "orbit": {
+            "semiMajorAxisKm": 129900,
+            "orbitalPeriodDays": 1.414,
+            "eccentricity": 0.0013,
+            "inclinationDeg": 4.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "Neptune",
+      "type": "planet",
+      "color": "#4976e6",
+      "radiusKm": 24622,
+      "description": "Farthest known planet with supersonic winds and dynamic storms in its atmosphere.",
+      "orbit": {
+        "semiMajorAxisKm": 4498396000,
+        "orbitalPeriodDays": 60182,
+        "eccentricity": 0.0086,
+        "inclinationDeg": 1.8
+      },
+      "moons": [
+        {
+          "name": "Triton",
+          "type": "moon",
+          "color": "#c5d4e0",
+          "radiusKm": 1353.4,
+          "description": "Largest moon of Neptune with geysers and a retrograde orbit, likely captured. ",
+          "orbit": {
+            "semiMajorAxisKm": 354759,
+            "orbitalPeriodDays": 5.877,
+            "eccentricity": 0.000016,
+            "inclinationDeg": 156.9
+          }
+        },
+        {
+          "name": "Proteus",
+          "type": "moon",
+          "color": "#9099a1",
+          "radiusKm": 210,
+          "description": "Second-largest Neptunian moon with an irregular, boxy shape.",
+          "orbit": {
+            "semiMajorAxisKm": 117647,
+            "orbitalPeriodDays": 1.122,
+            "eccentricity": 0.0005,
+            "inclinationDeg": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}
